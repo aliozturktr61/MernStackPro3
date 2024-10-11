@@ -17,7 +17,7 @@ export const notReducer=(state,action)=>{
       }
       case 'NOT_SIL':
       return {
-        notlar:state.notlar.filter((n)=>n._id!==action.payload._id)
+        notlar:state.notlar.filter((n)=>n._id!==action.payload.silinenNot._id)
       }
 
       default:
