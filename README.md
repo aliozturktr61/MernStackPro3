@@ -20,5 +20,13 @@ istek atılırken port sorununu çözebilirsiniz.
 - npm i jsonwebtoken
 - npm i cors# MernStackPro3
 
+  .env dosyası
+  PORT=4000
+# mongo db bağlantı adresi(parolayı ve database adını biz ekliyoruz.)
+# mongodb+srv://aliozturktr61:<--parolayı buraya yazılacak-->@clustermern.lvh3y.mongodb.net/(--veritabanı adı buraya yazılacak--)?retryWrites=true&w=majority&appName=ClusterMern  
+MONGO_URI=`mongodb+srv://aliozturktr61:ahzs1357@clustermern.lvh3y.mongodb.net/notDB?retryWrites=true&w=majority&appName=ClusterMern`
+
+SECRET_KEY="alio_secret"
+
 
 ![mernstackpro3](https://github.com/user-attachments/assets/b53bbfbc-47dd-4341-8a76-ab0ca3adb2fb)
